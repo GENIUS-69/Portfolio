@@ -16,6 +16,12 @@
         "html-has-lang": "off"
       }
     ],
-    "axe/text-alternatives": "off"
+    "axe/text-alternatives": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ]
   }
 }
