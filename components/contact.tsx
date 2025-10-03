@@ -43,7 +43,7 @@ export default function Contact() {
     >
       <SectionHeading>Contact Me</SectionHeading>
       <div className='w-full max-w-[80rem] mx-auto px-4 sm:px-0 text-center'>
-        <h4 className='text-gray-700 font-semibold my-4'>
+        <h4 className='text-gray-700 font-semibold my-4 dark:text-gray-400'>
           Please Contact me directly through this.
         </h4>
         <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
@@ -51,7 +51,7 @@ export default function Contact() {
             contactMe.map((contactval, index) => (
               <Link href={contactval.contactUrl} key={index} target='_blank'>
                 <motion.li
-                  className='bg-gray-900 border border-black/[0.1] rounded-xl px-5 py-3 text-white flex items-center justify-center w-[10rem] gap-2'
+                  className='bg-gray-900 border border-black/[0.1] rounded-xl px-3 py-3 text-white flex items-center justify-center w-[10rem] gap-2 dark:bg-gray-300 dark:text-gray-800'
                   variants={fadeInAnimationVariant}
                   initial="initial"
                   whileInView="animate"
@@ -60,8 +60,8 @@ export default function Contact() {
                   }}
                   custom={index}
                 >
-                  <span className="text-lg">{contactval.icon}</span> {/* Adjust icon size */}
-                  <span className="text-lg">{contactval.name}</span> {/* Render the contact name */}
+                  <span className="text-xl">{contactval.icon}</span> {/* Adjust icon size */}
+                  <span className="text-xl font-semibold">{contactval.name}</span> {/* Render the contact name */}
                 </motion.li>
               </Link>
             ))

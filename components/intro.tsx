@@ -71,7 +71,7 @@ export default function Intro() {
         </Link>
 
         <Link
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -80,7 +80,7 @@ export default function Intro() {
         </Link>
 
         <Link
-          className="bg-white p-4 text-black hover:text-gray-950 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-black"
+          className="bg-white p-4 text-black hover:text-gray-950 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80"
           href="https://www.linkedin.com/in/sarthak-hota/"
           target="_blank"
         >
@@ -88,7 +88,7 @@ export default function Intro() {
         </Link>
 
         <Link
-          className="bg-white p-4 text-black hover:text-gray-950 flex items-center gap-2 text-[1.6rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-black"
+          className="bg-white p-4 text-black hover:text-gray-950 flex items-center gap-2 text-[1.6rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dar dark:text-white/80"
           href="https://github.com/GENIUS-69"
           target="_blank"
         >
