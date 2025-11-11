@@ -11,6 +11,7 @@ import { PiMicrosoftOutlookLogo } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
+import { MdSatelliteAlt } from "react-icons/md";
 
 export const links = [
   {
@@ -41,12 +42,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelancer",
-    company: "Freelancer",
+    title: "Building Program Trainee",
+    company: "North-Eastern Space Application Center-ISRO",
     location: "India",
     description:
-      "Designed, developed, and deployed web applications using React, Next.js, and Node.js. Delivered scalable solutions and collaborated with clients to meet project goals.",
-    icon: React.createElement(FaReact),
+      "Assisted in developing and analyzing SATCOM systems, focusing on link budget evaluation, transponder performance, modulation schemes, and multiple access techniques; collaborated with scientists to document HTS and MSS research for ISRO applications.",
+    icon: React.createElement(MdSatelliteAlt),
     date: "March 2025 - Present",
   },
   {
@@ -60,7 +61,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer Intern",
-    company: "Edunet Foundation (AICTE)",
+    company: "Edunet Foundation",
     location: "India",
     description:
       "Created responsive user interfaces with React and Tailwind CSS. Collaborated with designers and backend developers.",
