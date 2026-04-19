@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Assisted in developing and analyzing SATCOM systems, focusing on link budget evaluation, transponder performance, modulation schemes, and multiple access techniques; collaborated with scientists to document HTS and MSS research for ISRO applications.",
     icon: React.createElement(MdSatelliteAlt),
-    date: "Nov 2025 - Present",
+    date: "Nov 2025 - December 2025",
   },
   {
     title: "Software Developer Intern",
