@@ -75,7 +75,7 @@ export default function Intro() {
           href="https://drive.google.com/file/d/12-tMFsUOnOBqdAo2sEqZVYO9i6iUK6NE/view"
           download
         >
-          Download CV{" "}
+          Get Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </Link>
 
