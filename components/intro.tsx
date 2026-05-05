@@ -11,7 +11,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home",0.5);
+  const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -47,10 +47,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Sarthak Hota.</span> I&apos;m a{" "}
-        <span className="font-bold">Full-Stack developer</span> with{" "}
-        <span className="font-bold">Real Life</span> of experience.<br /> I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="font-bold">Developing Scalable Solutions</span>.
+        <span className="font-bold">Full-Stack Developer & DevOps Engineer</span> with{" "}
+        <span className="font-bold">Real-World</span> project experience.<br />
+        I enjoy building <span className="italic">sites, apps & automated pipelines</span>.
+        My focus is <span className="font-bold">Developing Scalable Solutions</span>.
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -96,7 +96,7 @@ export default function Intro() {
         </Link>
 
       </motion.div>
-      
+
     </section>
   );
 }
